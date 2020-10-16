@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+
+            <form action="#">
+                <h1>Play pattern <img src="play.png" onclick="playPattern()"></h1>
+                <h1>Stop pattern <img src="stop.png" onclick="stopPattern()"></h1>
+                <label for="vehicle1" onclick="samplePlayBD()">Kick</label>
+                <input type="checkbox" id="kick1" name="kick1" value="kick1" class="pattern">
+                <input type="checkbox" id="kick2" name="kick2" value="kick2" class="pattern">
+                <input type="checkbox" id="kick3" name="kick3" value="kick3" class="pattern">
+                <input type="checkbox" id="kick4" name="kick4" value="kick4" class="pattern">
+                <br>
+                <label for="vehicle1" onclick="samplePlaySD()">Snare</label>
+                <input type="checkbox" id="snare1" name="snare1" value="snare1" class="pattern">
+                <input type="checkbox" id="snare2" name="snare2" value="snare2" class="pattern">
+                <input type="checkbox" id="snare3" name="snare3" value="snare3" class="pattern">
+                <input type="checkbox" id="snare4" name="snare4" value="snare4" class="pattern">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
